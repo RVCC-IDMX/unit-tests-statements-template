@@ -1,1 +1,1 @@
-# js-test-1-template
+# JS Unit Testing with Jest
