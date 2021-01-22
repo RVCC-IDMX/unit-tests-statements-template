@@ -12,4 +12,5 @@ Some tests are failing. Fixing this up will make the tests green.
 `npm test`
 
 ### Notes
-- 
+- It is best not to push changes to GitHub until you know your tests pass
+- The above note does not stop you from doing separate commits each time you make a fix
