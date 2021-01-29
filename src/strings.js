@@ -16,9 +16,9 @@ function sayHelloBye(name, num) {
   // Write a function called sayHelloBye that 
   //   1. takes 2 parameters
   //   2. first parameter is a string called name
-  //   3. second parameter is a number called num (either 0 or 1) 
+  //   3. second parameter is a number called num 
   //   4. return "Hello " + name if num is 0
-  //   5. return "Bye " + name is num is 1
+  //   5. else return "Bye " + name 
   // write your code here
 
 }

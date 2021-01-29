@@ -21,12 +21,10 @@ test('Should not be a blank', () => {
   expect(isBlank('test')).toBe(false);
 });
 
-test('Should return sting"Hello Woody"', () => {
+test('Should return string "Hello Woody"', () => {
   expect(sayHelloBye('Woody', 0)).toBe('Hello Woody');
 });
 
-test('Should return sting"Bye Buzz Lightyear"', () => {
+test('Should return string "Bye Buzz Lightyear"', () => {
   expect(sayHelloBye('Buzz Lightyear', 1)).toBe('Bye Buzz Lightyear');
 });
-
-

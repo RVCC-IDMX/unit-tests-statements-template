@@ -13,7 +13,7 @@ Some tests are failing. Fixing this up will make the tests green.
 
 ### Install Jest Runner in VS Code
 
-[Jest Runner VS COde Extension](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+For easier testing, install [Jest Runner VS COde Extension](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
 
 This extension identifies individual Jest tests and puts a "Run|Debug" menu above each test.
 
