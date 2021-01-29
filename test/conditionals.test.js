@@ -4,6 +4,7 @@ const {
   numberOfOdds,
   gradeGenerator,
   getGrade,
+  riceKrispies
 } = require('../src/conditionals');
 
 
@@ -41,4 +42,29 @@ test('should be Francine got an A', () => {
 
 test('should be David got a B', () => {
   expect(getGrade('David',87)).toBe('David got a B');
+});
+
+
+test('should be No breakfast!', () => {
+  expect(riceKrispies(1)).toBe('No breakfast!');
+});
+
+test('should be Snap!', () => {
+  expect(riceKrispies(33)).toBe('Snap!');
+});
+
+test('should be Snap! and Crackle!', () => {
+  expect(riceKrispies(15)).toBe('Snap! and Crackle!');
+});
+
+test('should be Snap! and Pop!', () => {
+  expect(riceKrispies(21)).toBe('Snap! and Pop!');
+});
+
+test('should be Snap! and Pop!', () => {
+  expect(riceKrispies(70)).toBe('Crackle! and Pop!');
+});
+
+test('should be Snap!, Crackle! and Pop!', () => {
+  expect(riceKrispies(210)).toBe('Snap!, Crackle! and Pop!');
 });

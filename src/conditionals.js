@@ -38,10 +38,56 @@ function getGrade(name, score) {
 
 }
 
+function riceKrispies(num) {
+  // num is a integer > 0
+  // return a string depending the following rules
+  // if num is divisible by 3 the sting will start with Snap!
+  // if num is divisible by 5 the string will next include the word Crackle!
+  // if num is divisible by 7 the string will end with the word Pop!
+  // if num is not divisible by 3, 5, or 7, the string is "No Breakfast!"
+  // Your string has to have grammar
+  // num = 3, 6, etc. the str is "Snap!"
+  // num = 5, 10, etc. the str is "Crackle!"
+  // num = 7, 14, etc. the str is "Pop!"
+  // num = 15, 30, etc. the str is "Snap! and Crackle!"
+  // num is 21, 42, etc. the str is "Snap! and Pop!"
+  // num is 35, 70, etc. the str is "Crackle! and Pop!"
+  // num is 105, 210, etc. the str is "Snap!, Crackle! and Pop!"
+  // write your code here
 
+  if (num % 105 == 0) {
+    return "Snap!, Crackle! and Pop!";
+  }
+  else if (num % 35 == 0) {
+    return "Crackle! and Pop!";
+  }
+  else if (num % 21 == 0) {
+    return "Snap! and Pop!"
+  }
+  else if (num % 15 == 0) {
+    return "Snap! and Crackle!"
+  }
+  else if (num % 7 == 0) {
+    return "Crackle!"
+  }
+  else if (num % 5 == 0) {
+    return "Crackle!"
+  }
+  else if (num % 3 == 0) {
+    return "Snap!"
+  }
+  else {
+    return "No breakfast!"
+  }
+
+
+  
+
+}
 
 module.exports = {
   numberOfOdds,
   gradeGenerator,
   getGrade,
+  riceKrispies,
 };
