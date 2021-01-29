@@ -17,7 +17,7 @@ test('should be the area of rectangle to 2 places', () => {
   expect(areaRectangle(5, 2)).toBe(10);
 });
 
-test('should be the circumerence of circle to 2 places', () => {
+test('should be the circumference of circle to 2 places', () => {
   expect(circumferenceCircle(5)).toBe(31.42);
 });
 
