@@ -1,3 +1,5 @@
+/* strings.js */
+
 const {
   isString,
   isBlank,

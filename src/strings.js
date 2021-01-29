@@ -1,3 +1,5 @@
+/* strings.js */
+
 function isString(str) {
   // return true if str is a string
   // and false otherwise

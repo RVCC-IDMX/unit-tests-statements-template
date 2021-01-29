@@ -1,3 +1,5 @@
+/* times.js */
+
 function times(a, b) {
   // write your code here
 }

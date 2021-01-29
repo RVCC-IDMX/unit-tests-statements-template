@@ -1,10 +1,13 @@
+/* sum.js */
+
 function sum(a, b) {
   return a + b;
 }
 
 function betterSum(a, b) {
-  // if paramters are strings,
-  // the function will make them numbers
+  // if parameters are strings,
+  // the function will first make 
+  // each of them numbers
   // and then add the numbers
   // write your code here
   

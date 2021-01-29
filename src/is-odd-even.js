@@ -1,3 +1,5 @@
+/* is-odd-even.js */
+
 function isOdd(num) {
   // return true if num is odd
   // and false otherwise

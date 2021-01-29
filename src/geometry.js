@@ -1,5 +1,7 @@
+/* geometry.js */
+
 function perimeterRectangle(width, height) {
-  // return the perimeter of the Reactangleangle with 
+  // return the perimeter of the rectangle with 
   // sides width and height
   // to 2 decimal places
   // Hint: use toFixed()

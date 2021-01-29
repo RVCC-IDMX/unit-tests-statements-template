@@ -1,3 +1,5 @@
+/* is-odd-even.js */
+
 const {
   isOdd,
   isEven,
