@@ -1,7 +1,8 @@
 /* sum.js */
 
 function sum(a, b) {
-  return a + b;
+  // return the sum of two numbers
+  
 }
 
 function betterSum(a, b) {

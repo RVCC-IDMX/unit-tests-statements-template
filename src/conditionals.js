@@ -3,6 +3,7 @@
 function numberOfOdds(num) {
   // num is a positive integer greater than 0
   // loop from 0 to num, iterating by 1
+  // this required to be a loop
   // return the count of odd numbers
   // for example, if num is 5 you will check 0,1,2,3,and 4
   // and count of the odd values is 2

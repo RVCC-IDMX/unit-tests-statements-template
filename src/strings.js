@@ -20,7 +20,7 @@ function sayHelloBye(name, num) {
   //   2. first parameter is a string called name
   //   3. second parameter is a number called num 
   //   4. return "Hello " + name if num is 0
-  //   5. else return "Bye " + name 
+  //   5. otherwise return "Bye " + name 
   // write your code here
 
 }
