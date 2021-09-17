@@ -67,7 +67,7 @@ function pythagorean(sideA, sideB) {
 }
 
 module.exports = {
-  perimeterRectangle,
+  rectanglePerimeter,
   areaRectangle,
   circumferenceCircle,
   areaCircle,

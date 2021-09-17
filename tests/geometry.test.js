@@ -1,16 +1,9 @@
 /* geometry.test.js */
 
-const {
-  perimeterRectangle,
-  areaRectangle,
-  circumferenceCircle,
-  areaCircle,
-  pythagorean,
-} = require('../src/geometry');
-
+const { rectanglePerimeter, areaRectangle, circumferenceCircle, areaCircle, pythagorean } = require('../src/geometry');
 
 test('Should be the perimeter of rectangle to 2 places', () => {
-  expect(perimeterRectangle(5, 2)).toBe(14);
+  expect(rectanglePerimeter(5, 2)).toBe(14);
 });
 
 test('Should be the area of rectangle to 2 places', () => {
@@ -25,12 +18,10 @@ test('Should be the area of circle to 2 places', () => {
   expect(areaCircle(5)).toBe(78.54);
 });
 
-
 test('Should be hypothenuse of triangle to 2 places', () => {
-  expect(pythagorean(3,4)).toBe(5);
+  expect(pythagorean(3, 4)).toBe(5);
 });
 
 test('Should be hypothenuse of triangle to 2 places', () => {
-  expect(pythagorean(8,12)).toBe(14.42);
+  expect(pythagorean(8, 12)).toBe(14.42);
 });
-
