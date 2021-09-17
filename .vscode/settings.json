@@ -1,7 +1,7 @@
 {
-  "liveServer.settings.port": 5501,
   "liveServer.settings.root": "/coverage/lcov-report",
   "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "workbench.editor.highlightModifiedTabs": true,
