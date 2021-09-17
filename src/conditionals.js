@@ -7,8 +7,7 @@ function numberOfOdds(num) {
   // return the count of odd numbers
   // for example, if num is 5 you will check 0,1,2,3,and 4
   // and count of the odd values is 2
-  // write your code here
-
+  // write your code here & return
 }
 
 function gradeGenerator(score) {
@@ -21,8 +20,7 @@ function gradeGenerator(score) {
   // < 90	B
   // < 100	A
   // return the letter grade as a string
-  // write your code here
-
+  // write your code here & return
 }
 
 function getGrade(name, score) {
@@ -36,7 +34,6 @@ function getGrade(name, score) {
   // Francine got an A
   // David got a B
   // note it's "an A" (not a A)
-
 }
 
 function riceKrispies(num) {
@@ -54,36 +51,25 @@ function riceKrispies(num) {
   // num is 21, 42, etc. the str is "Snap! and Pop!"
   // num is 35, 70, etc. the str is "Crackle! and Pop!"
   // num is 105, 210, etc. the str is "Snap!, Crackle! and Pop!"
-  // write your code here
+  // write your code here & return
 
   if (num % 105 == 0) {
-    return "Snap!, Crackle! and Pop!";
+    return 'Snap!, Crackle! and Pop!';
+  } else if (num % 35 == 0) {
+    return 'Crackle! and Pop!';
+  } else if (num % 21 == 0) {
+    return 'Snap! and Pop!';
+  } else if (num % 15 == 0) {
+    return 'Snap! and Crackle!';
+  } else if (num % 7 == 0) {
+    return 'Crackle!';
+  } else if (num % 5 == 0) {
+    return 'Crackle!';
+  } else if (num % 3 == 0) {
+    return 'Snap!';
+  } else {
+    return 'No breakfast!';
   }
-  else if (num % 35 == 0) {
-    return "Crackle! and Pop!";
-  }
-  else if (num % 21 == 0) {
-    return "Snap! and Pop!"
-  }
-  else if (num % 15 == 0) {
-    return "Snap! and Crackle!"
-  }
-  else if (num % 7 == 0) {
-    return "Crackle!"
-  }
-  else if (num % 5 == 0) {
-    return "Crackle!"
-  }
-  else if (num % 3 == 0) {
-    return "Snap!"
-  }
-  else {
-    return "No breakfast!"
-  }
-
-
-  
-
 }
 
 module.exports = {
