@@ -53,9 +53,10 @@ function gradeGenerator(score) {
  * ? Francine got an A
  * ? David got a B
  * ? note it's "an A" (not a A)
- * ? write your code here & return
  */
-function getGrade(name, score) {}
+function getGrade(name, score) {
+  // write your code here & return
+}
 
 module.exports = {
   numberOfOdds,
