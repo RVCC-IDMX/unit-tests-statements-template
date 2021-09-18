@@ -11,10 +11,7 @@
   },
   "plugins": ["jest"],
   "rules": {
-    "no-unused-vars": [
-      "error",
-      { "vars": "all", "args": "none", "ignoreRestSiblings": false }
-    ],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
     "no-console": "off",
     "no-trailing-spaces": "error",
     "jest/no-disabled-tests": "warn",
