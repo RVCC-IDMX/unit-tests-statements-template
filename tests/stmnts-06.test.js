@@ -1,25 +1,20 @@
-const { isString, isBlank, sayHelloBye } = require('../src/stmnts-06');
+const { isString, isBlank, sayHelloOrBye } = require('../src/stmnts-06');
 
-test('Should be a string', () => {
+test('isString', () => {
   expect(isString('32')).toBe(true);
+  expect(isString(32)).toBe(false);
+  expect(isString('')).toBe(true);
+  expect(isString(' ')).toBe(true);
+  expect(isString(null)).toBe(false);
 });
 
-test('Should be not be a string', () => {
-  expect(isString(13)).toBe(false);
-});
-
-test('Should be a blank', () => {
+test('isBlank', () => {
   expect(isBlank('')).toBe(true);
+  expect(isBlank(' ')).toBe(false);
+  expect(isBlank(32)).toBe(false);
 });
 
-test('Should not be a blank', () => {
-  expect(isBlank('test')).toBe(false);
-});
-
-test('Should return string "Hello Woody"', () => {
-  expect(sayHelloBye('Woody', 0)).toBe('Hello Woody');
-});
-
-test('Should return string "Bye Buzz Lightyear"', () => {
-  expect(sayHelloBye('Buzz Lightyear', 1)).toBe('Bye Buzz Lightyear');
+test('sayHelloOrBye', () => {
+  expect(sayHelloOrBye('Woody', 0)).toBe('Hello Woody');
+  expect(sayHelloOrBye('Buzz Lightyear', 1)).toBe('Bye Buzz Lightyear');
 });

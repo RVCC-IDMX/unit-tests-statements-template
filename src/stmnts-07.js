@@ -52,9 +52,22 @@ function gradeGenerator(score) {
  * ? return a string written like:
  * ? Francine got an A
  * ? David got a B
- * ? note it's "an A" (not a A)
+ * ? note it's 'an A' (not a A) and 'an F' (not a F)
  */
 function getGrade(name, score) {
+  // write your code here & return
+}
+
+/**
+ * Calculates the summ of all the numbers from 0 to num (inclusive)
+ * @param {number} num - the number to add up to
+ * @returns {number} - the sum of all numbers from 0 to num
+ * ? num is a positive integer greater than 0
+ * ? this required to be a for loop
+ * ? using a for loop from 0 to num, iterating by 1
+ * ? For example, num is 4 then return 10 because 1 + 2 + 3 + 4 = 10.
+ */
+function addUpTheNumbers(num) {
   // write your code here & return
 }
 
@@ -62,4 +75,5 @@ module.exports = {
   numberOfOdds,
   gradeGenerator,
   getGrade,
+  addUpTheNumbers,
 };

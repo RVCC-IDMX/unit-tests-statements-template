@@ -31,12 +31,12 @@ function isBlank(str) {
  *  otherwise, the string starts with 'Bye, '
  * @returns {string} - the name of the person
  */
-function sayHelloBye(name, num) {
+function sayHelloOrBye(name, num) {
   // write your code here & return
 }
 
 module.exports = {
   isString,
   isBlank,
-  sayHelloBye,
+  sayHelloOrBye,
 };
