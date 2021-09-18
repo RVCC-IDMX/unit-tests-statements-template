@@ -1,5 +1,3 @@
-/* is-odd-even.js */
-
 const { isOdd, isEven, isNegative, isString } = require('../src/stmnts-05');
 
 test('isEven', () => {

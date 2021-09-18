@@ -1,12 +1,4 @@
-/* conditionals.test.js */
-
-const {
-  numberOfOdds,
-  gradeGenerator,
-  getGrade,
-  riceKrispies
-} = require('../src/conditionals');
-
+const { numberOfOdds, gradeGenerator, getGrade } = require('../src/stmnts-07');
 
 test('Should be 2 for the odds in 0,1,2,3,4', () => {
   expect(numberOfOdds(5)).toBe(2);
@@ -37,13 +29,12 @@ test('Should be A for grade 99', () => {
 });
 
 test('Should be Francine got an A', () => {
-  expect(getGrade('Francine',99)).toBe('Francine got an A');
+  expect(getGrade('Francine', 99)).toBe('Francine got an A');
 });
 
 test('Should be David got a B', () => {
-  expect(getGrade('David',87)).toBe('David got a B');
+  expect(getGrade('David', 87)).toBe('David got a B');
 });
-
 
 test('Should be No breakfast!', () => {
   expect(riceKrispies(1)).toBe('No breakfast!');

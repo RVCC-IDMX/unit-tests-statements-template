@@ -1,6 +1,7 @@
 /*
  * stmnts-05.js
  * Language: javascript
+ * Test: tests/stmnts-05.test.js
  * Path: src/stmnts-05.js
  */
 

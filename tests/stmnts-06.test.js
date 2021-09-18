@@ -1,11 +1,4 @@
-/* strings.js */
-
-const {
-  isString,
-  isBlank,
-  sayHelloBye,
-} = require('../src/strings');
-
+const { isString, isBlank, sayHelloBye } = require('../src/stmnts-06');
 
 test('Should be a string', () => {
   expect(isString('32')).toBe(true);

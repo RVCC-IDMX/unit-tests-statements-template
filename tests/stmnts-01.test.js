@@ -1,5 +1,3 @@
-/* times.test.js */
-
 const times = require('../src/stmnts-01');
 
 test('times', () => {

@@ -1,5 +1,3 @@
-/* sum.test.js */
-
 const { sum, betterSum } = require('../src/stmnts-02');
 
 test('sum', () => {
