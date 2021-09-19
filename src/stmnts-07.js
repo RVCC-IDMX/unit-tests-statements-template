@@ -6,6 +6,36 @@
  */
 
 /**
+ * Checks to make sure 2 paramters both are truthy
+ * @param {*} a - first parameter
+ * @param {*} b - second parameter
+ * @returns {boolean} - true if a and b are both true, false otherwise
+ * ? [JavaScript: The Definitive Guide, Chapter 4.10](https://bit.ly/39lbxnK)
+ */
+function logicalAnd(a, b) {
+  // write your code here & return
+}
+
+/**
+ * Checks if at least one of the parameters is truthy
+ * @param {*} a - first parameter
+ * @param {*} b 0 second parameter
+ * @returns {boolean} - true if a or b is truthy, false if both are falsy
+ */
+function logicalOr(a, b) {
+  // write your code here & return
+}
+
+/**
+ * Takes a boolean and returns the opposite
+ * @param {boolean} bool - the boolean to invert
+ * @returns {boolean} - the opposite of the given boolean
+ */
+function invertBoolean(bool) {
+  // write your code here & return
+}
+
+/**
  * Count the number of odd numbers from 0 to num (exclusive)
  * @param {number} num  - the number to count to
  * @returns {number} - the number of odd numbers from 0 to num
@@ -15,8 +45,23 @@
  * ? return the count of odd numbers
  * ? for example, if num is 9 you will check 0,1,2,3,4,5,6,7,8
  * ? and count of the odd values is 4
+ * ?
+ * ? [JavaScript: The Definitive Guide, Chapter 5.4.3](https://bit.ly/39hrIlW)
  */
 function numberOfOdds(num) {
+  // write your code here & return
+}
+
+/**
+ * Calculates the sum of all the numbers from 0 to num (inclusive)
+ * @param {number} num - the number to add up to
+ * @returns {number} - the sum of all numbers from 0 to num
+ * ? num is a positive integer greater than 0
+ * ? this required to be a for loop
+ * ? using a for loop from 0 to num, iterating by 1
+ * ? For example, num is 4 then return 10 because 1 + 2 + 3 + 4 = 10.
+ */
+function addUpTheNumbers(num) {
   // write your code here & return
 }
 
@@ -33,6 +78,7 @@ function numberOfOdds(num) {
  * ? < 90	B
  * ? <= 100	A
  * ? return the letter grade as a string
+ * ?
  */
 function gradeGenerator(score) {
   // write your code here & return
@@ -43,11 +89,10 @@ function gradeGenerator(score) {
  * @param {string} name - the name of the student
  * @param {number} score - the numeric grade score for a student
  * @returns {string} - the student's name and their letter grade
- * ? this function is passed 2 parameters
  * ? name is a string and score is a number
  * ? 0 through 100
  *
- * ? this function must call the above gradeGenerator() function
+ * ? MUST CALL the above gradeGenerator() from above
  * ? to find a letter grade with that score
  * ? return a string written like:
  * ? Francine got an A
@@ -58,20 +103,10 @@ function getGrade(name, score) {
   // write your code here & return
 }
 
-/**
- * Calculates the summ of all the numbers from 0 to num (inclusive)
- * @param {number} num - the number to add up to
- * @returns {number} - the sum of all numbers from 0 to num
- * ? num is a positive integer greater than 0
- * ? this required to be a for loop
- * ? using a for loop from 0 to num, iterating by 1
- * ? For example, num is 4 then return 10 because 1 + 2 + 3 + 4 = 10.
- */
-function addUpTheNumbers(num) {
-  // write your code here & return
-}
-
 module.exports = {
+  logicalAnd,
+  logicalOr,
+  invertBoolean,
   numberOfOdds,
   gradeGenerator,
   getGrade,

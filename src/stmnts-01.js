@@ -3,6 +3,8 @@
  * Language: javascript
  * Test: tests/stmnts-01.test.js
  * Path: src/stmnts-01.js
+ *
+ * Arithmetic
  */
 
 /**

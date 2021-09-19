@@ -3,6 +3,7 @@
  * Language: javascript
  * Test: tests/stmnts-05.test.js
  * Path: src/stmnts-05.js
+ * Boolean expressions for numbers
  */
 
 /**
@@ -32,18 +33,8 @@ function isNegative(value) {
   // write your code here & return
 }
 
-/**
- * Check if a value is a string
- * @param {*} value - value to check
- * @returns {boolean} - true if value is a string, false otherwise
- */
-function isString(value) {
-  // write your code here & return
-}
-
 module.exports = {
   isOdd,
   isEven,
   isNegative,
-  isString,
 };

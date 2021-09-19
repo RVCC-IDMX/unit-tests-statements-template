@@ -1,4 +1,4 @@
-const { isOdd, isEven, isNegative, isString } = require('../src/stmnts-05');
+const { isOdd, isEven, isNegative } = require('../src/stmnts-05');
 
 test('isEven', () => {
   expect(isEven(32)).toBe(true);
@@ -20,13 +20,4 @@ test('isNegative', () => {
   expect(isNegative(0)).toBe(false);
   expect(isNegative(1)).toBe(false);
   expect(isNegative(32)).toBe(false);
-});
-
-test('isString', () => {
-  expect(isString('hello')).toBe(true);
-  expect(isString('1')).toBe(true);
-  expect(isString(1)).toBe(false);
-  expect(isString(true)).toBe(false);
-  expect(isString(null)).toBe(false);
-  expect(isString(undefined)).toBe(false);
 });

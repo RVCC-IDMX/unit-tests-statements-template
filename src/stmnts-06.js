@@ -3,6 +3,7 @@
  * Language: javascript
  * Test: tests/stmnts-06.test.js
  * Path: src/stmnts-06.js
+ * Boolean expressions for strings
  */
 
 /**
@@ -35,8 +36,20 @@ function sayHelloOrBye(name, num) {
   // write your code here & return
 }
 
+/**
+ * Checks if 2 strings have the same value, case sensitive
+ * @param {string} str1 - the first string to compare
+ * @param {string} str2 - the second string to compare
+ * @returns {boolean} - true if the strings are the same, false otherwise
+ * ? [JavaScript: The Definitive Guide, Chapter 4.9.2](https://bit.ly/3Cvjcw2)
+ */
+function compareStrings(str1, str2) {
+  // write your code here & return
+}
+
 module.exports = {
   isString,
   isBlank,
   sayHelloOrBye,
+  compareStrings,
 };
