@@ -28,13 +28,9 @@ NOTE: The -- tells npm to pass along whatever following arguments there are to t
 
 The above npm command is equivalent to:
 
-`npx jest stmnts-01.test.js`
+`npx jest --coverage --verbose tests/stmnts-01.test.js `
 
-or inside the package.json it would be the same as:
-
-`"test": "jest stmnts-01.test.js"`
-
-Since we have a number files that need individual editing, we want to run individual testing on each one of them as well.
+Since we have a number files that need individual editing, we want to run individual testing sequentially on each one of them as well.
 
 ---
 
@@ -48,9 +44,9 @@ If a test fails, jest will identify it as failing and print one or more error me
 
 ## Edit and test each file sequentially
 
-One-by-one, edit each JavaScript file and follow the instructions for each coding skill. You should run the test after each completed skill and see the pass count increase. When one file passes completely, you are ready for the next file.
+One-by-one, edit each JavaScript file and follow the instructions for each function listed. When one file passes completely, you are ready for the next file.
 
-Start with stmnts-01.test.js and finish with stmnts-04.test.js
+Start with stmnts-01.test.js and finish with stmnts-07.test.js
 
 ---
 
@@ -59,6 +55,12 @@ Start with stmnts-01.test.js and finish with stmnts-04.test.js
 Eslint needs to be properly running in this repo as it is configured to not allow you to commit with coding errors.
 
 Be careful of any squigglies and get them properly fixed (do not add any eslint disable comments)
+
+---
+
+## GitHub is configured to run the tests when you push
+
+The .github folder is configured to run GitHub actions when there is a push.
 
 ---
 
@@ -72,14 +74,7 @@ When you feel the coding skills are completed, the following command will test a
 
 ## Coverage
 
-To see the coverage my finding the created index.html file in the coverage/lcov-report folder. After you start testing, you can open that file using the Liver Server extension in VS Code.
-
----
-
-## Notes
-
-- It is best not to push changes to GitHub until you know your tests pass
-- The above note does not stop you from doing separate commits each time you make a fix
+The Live Server extension is configured (in .vscode/settings.json) to open the the coverage/lcov-report/index.html file in your default browser when you select "Go Live".
 
 ---
 
