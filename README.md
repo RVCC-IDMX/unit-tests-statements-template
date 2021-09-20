@@ -28,9 +28,9 @@ NOTE: The -- tells npm to pass along whatever following arguments there are to t
 
 The above npm command is equivalent to:
 
-`npx jest --coverage --verbose tests/stmnts-01.test.js `
+`npx jest --coverage --verbose stmnts-01.test.js `
 
-Since we have a number files that need individual editing, we want to run individual testing sequentially on each one of them as well.
+Since we have a number of files that need individual editing, we want to run individual testing sequentially on each one of them as well.
 
 ---
 
@@ -44,7 +44,7 @@ If a test fails, jest will identify it as failing and print one or more error me
 
 ## Edit and test each file sequentially
 
-One-by-one, edit each JavaScript file and follow the instructions for each function listed. When one file passes completely, you are ready for the next file.
+One-by-one, edit each JavaScript file and follow the instructions for each function listed. When one file completely passes its tests, you are ready for the next file.
 
 Start with stmnts-01.test.js and finish with stmnts-07.test.js
 
@@ -58,15 +58,15 @@ Be careful of any squigglies and get them properly fixed (do not add any eslint 
 
 ---
 
-## GitHub is configured to run the tests when you push
+## GitHub Actions are configured to run the tests when you push
 
-The .github folder is configured to run GitHub actions when there is a push.
+The .github folder is configured to run GitHub actions when there is a push. You will see results of this in the Actions tab in your GitHub repo.
 
 ---
 
 ## Continue writing and fixing code until all tests pass
 
-When you feel the coding skills are completed, the following command will test all files in the repo that end in test.js
+When you see the individual files are completed, and the tests are passing, the following command will run Jest on all the files in the repo that end in test.js
 
 `npm test`
 
@@ -74,7 +74,7 @@ When you feel the coding skills are completed, the following command will test a
 
 ## Coverage
 
-The Live Server extension is configured (in .vscode/settings.json) to open the the coverage/lcov-report/index.html file in your default browser when you select "Go Live".
+The Live Server extension is configured (in .vscode/settings.json) to open the the coverage/lcov-report/index.html file in your default browser when you select "Go Live", which should be at the bottom of VS Code if the extension is installed.
 
 ---
 
