@@ -28,8 +28,8 @@ function isBlank(str) {
  * Creates a new string by concatenating the given strings
  * @param {string} name - the name of the person
  * @param {string} num - the number to check;
- *  if it is 0, the string starts with 'Hello, '
- *  otherwise, the string starts with 'Bye, '
+ *  if it is 0, the string starts with 'Hello '
+ *  otherwise, the string starts with 'Bye '
  * @returns {string} - the name of the person
  */
 function sayHelloOrBye(name, num) {

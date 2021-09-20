@@ -39,7 +39,7 @@ function convertMinutesToSeconds(minutes) {
  * @param {number} hours - the number of hours to convert
  * @returns {number} - the number of seconds
  */
-function convertHoursToSeconds(minutes) {
+function convertHoursToSeconds(hours) {
   // write your code here & return value
 }
 

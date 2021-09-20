@@ -28,7 +28,7 @@ test('invertBoolean', () => {
   expect(invertBoolean(1)).toBe(false);
   expect(invertBoolean(0)).toBe(true);
   expect(invertBoolean('true')).toBe(false);
-  expect(invertBoolean('false')).toBe(true);
+  expect(invertBoolean('false')).toBe(false);
   expect(invertBoolean(null)).toBe(true);
   expect(invertBoolean(NaN)).toBe(true);
 });
@@ -36,7 +36,7 @@ test('invertBoolean', () => {
 test('numberOfOdds', () => {
   expect(numberOfOdds(5)).toBe(2);
   expect(numberOfOdds(10)).toBe(5);
-  expect(numberOfOdds(15)).toBe(8);
+  expect(numberOfOdds(15)).toBe(7);
 });
 
 test('addUpTheNumbers', () => {
