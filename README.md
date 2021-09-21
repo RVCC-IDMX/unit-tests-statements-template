@@ -81,12 +81,19 @@ You should output that includes a table at the end looking like this:
 
 The Live Server extension is configured (in .vscode/settings.json) to open the the coverage/lcov-report/index.html file in your default browser when you select "Go Live", which should be at the bottom of VS Code if the extension is installed.
 
-Jest uses [Istanbul](https://istanbul.js.org/) to track how well the unit tests test the code.
+Jest uses [Istanbul](https://istanbul.js.org/) to track how well the unit tests test the code. The output from Istanbul looks like this:
 
 
 ![127 0 0 1_5500_](https://user-images.githubusercontent.com/13385801/134093898-82d5d96b-5416-4225-be7c-7c0fca5c8f9d.png)
 
+And a code file output looks like:
+
+![127 0 0 1_5500_stmnts-01 js html](https://user-images.githubusercontent.com/13385801/134094889-628d1f0e-8229-4455-9ae6-315a12f2a85e.png)
+
+
+If certain pieces of code are not touched by the unit tests, the Istanbul output will flag the code as not covered.
 ---
+
 
 ## Commit and push after all tests pass
 
