@@ -99,7 +99,7 @@ If certain pieces of code are not touched by the unit tests, the Istanbul output
 
 The question then becomes: Is the code logic wrong or is the suite of tests not inclusive enough?
 
-In the above silly example, the code logic is wrong.
+In the above silly example, the code logic is wrong. There is no need for that if statement.
 
 ---
 
