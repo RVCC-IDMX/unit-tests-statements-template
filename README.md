@@ -97,6 +97,9 @@ If certain pieces of code are not touched by the unit tests, the Istanbul output
 <img width="455" alt="2021-09-20_20-37-53" src="https://user-images.githubusercontent.com/13385801/134095415-2fea0797-6388-412c-94b6-fafdbc335135.png">
 
 
+The question then becomes: Is the code logic wrong or is the suite of tests not inclusive enough?
+
+In the above silly example, the code logic is wrong.
 
 ---
 
