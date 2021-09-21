@@ -70,6 +70,11 @@ When you see the individual files are completed, and the tests are passing, the 
 
 `npm test`
 
+You should output that includes a table at the end looking like this:
+
+<img width="683" alt="test-coverage-100%" src="https://user-images.githubusercontent.com/13385801/134093507-474fffdf-d6ea-4d13-aaa6-f4a8d5efa534.png">
+
+
 ---
 
 ## Coverage
