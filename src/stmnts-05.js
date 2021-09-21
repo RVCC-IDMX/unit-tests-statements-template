@@ -7,7 +7,7 @@
  */
 
 /**
- * Check if a number is even
+ * Check if a number is odd
  * @param {number} num - number to check
  * @returns {boolean} - true if num is odd, false otherwise
  */
@@ -16,7 +16,7 @@ function isOdd(num) {
 }
 
 /**
- * Check if a number is odd
+ * Check if a number is even
  * @param {number} num - number to check
  * @returns {boolean} - true if num is even, false otherwise
  */
