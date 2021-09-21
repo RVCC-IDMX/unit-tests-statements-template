@@ -92,6 +92,12 @@ And a code file output looks like:
 
 
 If certain pieces of code are not touched by the unit tests, the Istanbul output will flag the code as not covered.
+
+
+<img width="455" alt="2021-09-20_20-37-53" src="https://user-images.githubusercontent.com/13385801/134095415-2fea0797-6388-412c-94b6-fafdbc335135.png">
+
+
+
 ---
 
 
