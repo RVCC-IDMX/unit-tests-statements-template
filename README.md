@@ -81,6 +81,9 @@ You should output that includes a table at the end looking like this:
 
 The Live Server extension is configured (in .vscode/settings.json) to open the the coverage/lcov-report/index.html file in your default browser when you select "Go Live", which should be at the bottom of VS Code if the extension is installed.
 
+
+![127 0 0 1_5500_](https://user-images.githubusercontent.com/13385801/134093898-82d5d96b-5416-4225-be7c-7c0fca5c8f9d.png)
+
 ---
 
 ## Commit and push after all tests pass
