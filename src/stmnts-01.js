@@ -8,7 +8,7 @@
  */
 
 /**
- * Calaculate the next integer as if you were counting up by 1
+ * Calculates the next integer as if you were counting up by 1
  * @param {integer} int - The integer
  * @returns {integer} - the next integer as if you were counting up by 1
  */

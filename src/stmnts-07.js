@@ -6,7 +6,7 @@
  */
 
 /**
- * Checks to make sure 2 paramters both are truthy
+ * Checks to make sure 2 parameters both are truthy
  * @param {*} a - first parameter
  * @param {*} b - second parameter
  * @returns {boolean} - true if a and b are both true, false otherwise

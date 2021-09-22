@@ -3,7 +3,7 @@
  * Language: javascript
  * Test: tests/stmnts-03.tests.js
  * Path: src/stmnts-03.js
- * Arithematic Expressions
+ * Arithmetic Expressions
  * [JavaScript: The Definitive Guide, Chapter 4.8](https://bit.ly/2Z30rSk)
  */
 
@@ -31,7 +31,7 @@ function rectangleArea(width, height) {
 }
 
 /**
- * Calulates the circumference of a circle with a known radius
+ * Calculates the circumference of a circle with a known radius
  * rounded to 2 decimal places
  * @param {number} radius - the radius of the circle
  * @returns {number} - the circumference of the circle rounded to 2 decimal places

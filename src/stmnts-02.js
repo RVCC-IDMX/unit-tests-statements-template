@@ -3,7 +3,7 @@
  * Language: javascript
  * Test: tests/stmnts-02.test.js
  * Path: src/stmnts-02.js
- * Arithemtic Operators
+ * Arithmetic Operators
  * [JavaScript: The Definitive Guide, Chapter 4.7](https://bit.ly/3klr79d)
  */
 
@@ -28,7 +28,7 @@ function betterSum(x, y) {
 }
 
 /**
- * Calcuates the remainder of two numbers, the first divided by the second
+ * Calculates the remainder of two numbers, the first divided by the second
  * @param {number} number - the number to be divided
  * @param {number} divisor - the divisor of the number
  * @returns {number} - the remainder of the number and the divisor
